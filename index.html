@@ -18,6 +18,11 @@
 
           <button class="Hotspot" slot="hotspot-1" data-position="22.114881038306805m 76.41863141465969m 92.72411936367459m" data-normal="0m 3.422854333301474e-8m 0.9999999999999996m" data-visibility-attribute="visible">
               <div class="HotspotAnnotation" id="hotspot-1">
+                <template id="hotspot-template">
+                  <img img="#" class="hotspot-img">
+                  <h2 class="title-hotspot"></h2>
+                  <p class="p-hotspot"></p>
+                </template>
               </div>
           </button>
           
@@ -44,9 +49,11 @@
         </model-viewer>
       </div>
 
-      <div class="col-span-full">
+      <div class="col-span-full" id="material-con">
         <h2>Materials</h2>
-        <ul id="material-list"></ul>
+        <ul id="material-list">
+          <!-- COPIES TEMPLATE -->
+        </ul>
 
         <template id="material-template">
           <li>
