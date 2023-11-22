@@ -1,7 +1,5 @@
- 
 p, h1, h2, h3 {
   font-family: "Open Sans", Arial, sans-serif;
-  color: #000;
 }
 
 p {
@@ -29,7 +27,7 @@ model-viewer {
   width: auto;
   max-width: 1200px;
   height: 700px;
-  background-color: #ffffff;
+  background-color: #12181b;
   margin: 0 auto;
 }
 
@@ -63,6 +61,7 @@ model-viewer {
   padding: 0.5em 1em;
   position: absolute;
   top: 50%;
+  width: -moz-max-content;
   width: max-content;
   text-align: left;
 }
@@ -153,15 +152,27 @@ model-viewer > #ar-prompt > img {
   animation: circle 4s linear infinite;
 }
 
-
-
 .spinner {
   height: 440px;
-  background: url(../images/ball-triangle.svg) center no-repeat;
+  background: url(../images/spinner.gif) center no-repeat;
+}
+
+body {
+  background-color: #161b1d;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
 }
 
 ul {
   color: white;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
